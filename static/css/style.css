@@ -578,4 +578,14 @@ a:hover {
 #explore > .col-xs-4, #explore > .col-sm-3 {
   padding: 0; }
 
+.login100-form.validate-form {
+  margin: 0 auto;
+  width: 300;
+}
+
+.container-page {
+  margin: 0 auto;
+  width: 300;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,12 +1,25 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
-<h2>Login</h2>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Login</button>
-</form>
+<div class="container-page">
+    
+        <h2>Login</h2>
+        <form action="" method="post">
+        <hr>
+            <p> 
+                {% csrf_token %}
+                {{ form.as_p }}
+            </p>
+            <p class="remember_me">
+                <label>
+                    <input type="checkbox" name="remember_me" id="remember_me">
+                    Remember me on this computer
+                </label>
+            </p>
+            <p class="submit"></p><button type="submit" class="bton login">Login</button></p>
+           
+        </form>
+</div>
 
 {% endblock content %}
+
