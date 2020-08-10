@@ -25,6 +25,7 @@
 - follow/unfollow users
 - Profile Screen
 - Edit profile
+- search the user you followed
 
 ## Future Changes
 - chat with users
